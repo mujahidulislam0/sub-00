@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+   
+    margin: 0 auto;
+   
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 200px;
+  
+   
+}
+.logo a{
+ font-size: 25px;
+  color: #FFF;
+text-transform: uppercase;
+}
+
+.menu{
+    width: 1000px;
+    
+}
+.menu_bar{
+    display: flex;
+}
+.menu ul li {
+    display: inline-block;
+    
+}
+.menu ul li a{
+    font-size: 15px;
+    color: #FFF;
+  text-transform: uppercase;
+  padding: 0 20px;
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.active, .menu_bar ul li:hover
+{
+    background: #0000007e;
+    
+}
+
+#top_bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 0, 0, 0.493)
+    
+}
+
+
+#banar{
+  
+    background-image: url(./image/05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overly{
+    padding: 150px 0;
+    background: rgba(0, 0, 0, 0.425);
+    text-align: center;
+    color: #fff;
+}
+
+.overly .container h1{
+font-size: 60px;;
+}
+
+.overly .container h2{
+font-size: 40px;
+}
+
+.overly .container button{
+    margin-top: 20px;
+padding: 15px 25px;
+color: #0f0f0f;
+background: greenyellow;
+text-transform: uppercase;
+border-radius: 50px;
+border: none;
+font-weight: 900;
+font-size: 25px;
+cursor: pointer
+
+
+}
+
+.overly .container button:hover{
+    background: rgba(153, 205, 50, 0.7);
+
+}
